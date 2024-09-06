@@ -1,13 +1,1 @@
-apiVersion: v1
-kind: Service
-metadata:
-  name: canary-demo
-spec:
-  ports:
-    - port: 80
-      targetPort: https
-      protocol: TCP
-      name: https
-  selector:
-    app: sync-test
-  type: ClusterIP
+test
