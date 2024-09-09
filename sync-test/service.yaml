@@ -5,9 +5,9 @@ metadata:
 spec:
   ports:
     - port: 80
-      targetPort: https
+      targetPort: http
       protocol: TCP
-      name: https
+      name: http
   selector:
-    app: sync-test
+    app: sync-test-2
   type: ClusterIP
